@@ -43,4 +43,4 @@ As variáveis para alteração são:
 # Testando a aplicação
 Se você apenas descompactou a aplicação para a raiz do servidor, você deverá informar o IP seguido de /prova/exercicio4, conforme o exemplo abaixo:
 
-http://127.0.0.1/prova/exercicio4
+http://127.0.0.1/bdrdo-master/exercicio4
