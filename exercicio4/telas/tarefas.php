@@ -12,7 +12,7 @@
     <div class="titulo-tarefa"><?php echo utf8_encode($sql->titulo); ?></div>
     <div class="prioridade-tarefa" align="center"><?php echo utf8_encode($sql->tipo); ?></div>
     <div class="editar-tarefa" onclick="enviarPag('3','<?php echo $sql->cod; ?>',''); return false;" ><img src="images/editar.png" class="imagem-botao" /></div>
-    <div class="excluir-tarefa" onclick="enviarPag('4','<?php echo $sql->cod; ?>','<?php echo utf8_decode($sql->titulo); ?>'); return false;" ><img src="images/excluir.png" class="imagem-botao" /></div>
+    <div class="excluir-tarefa" onclick="enviarPag('4','<?php echo $sql->cod; ?>','<?php echo utf8_encode($sql->titulo); ?>'); return false;" ><img src="images/excluir.png" class="imagem-botao" /></div>
 </div>
 <?php
     endwhile;
