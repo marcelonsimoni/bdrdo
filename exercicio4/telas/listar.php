@@ -1,5 +1,5 @@
 <div class="linha-tarefa" style="background-color:#f3f3f3">
-	<div class="total-tarefa"><strong>TOTAL</strong></div>
+	<div class="total-tarefa"><strong>&nbsp;</strong></div>
     <div class="titulo-tarefa"><strong>TÍTULO</strong></div>
     <div class="prioridade-tarefa" align="center" onclick="AlteraPrioridade();" style="cursor:pointer"><div style="float:left"><strong>PRIORIDADE</strong></div><div style="float:left; margin-left:1px; "><img src="images/up.png" id="img-ordem-tarefas" width="16"/></div></div>
 

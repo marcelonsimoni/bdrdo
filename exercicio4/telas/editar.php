@@ -27,9 +27,9 @@ if($taf = $INFO->fetch_object())
 </select></div>
 <div style="margin-top:7px;">Descrição</div>
 <div><textarea name="descricao" id="descricao" class="campo_input corner-input box-iluminado textarea-form"><?php echo utf8_encode($taf->descricao); ?></textarea></div>
-<div style="margin-top:10px;">
+<div style="margin-top:10px;" class="campo-form">
 	<input type="button" onclick="ExcluirTarefa('<?php echo $taf->cod; ?>');" name="bt-altera-tarefa" id="bt-altera-tarefa"  value="Excluir Tarefa" class="botao-form" style="background-color:#cc0000;"  /> 
-    <input type="button" onclick="AlterarTarefa();" name="bt-altera-tarefa" id="bt-altera-tarefa"  value="Alterar" class=" botao-form" style="margin-left:100px;" />
+    <input type="button" onclick="AlterarTarefa();" name="bt-altera-tarefa" id="bt-altera-tarefa"  value="Alterar" class=" botao-form" style="float:right" />
 </div>
 <input type="hidden" name="ct" id="ct" value="<?php echo $taf->cod; ?>" />
 </form>

@@ -100,15 +100,15 @@ input,textarea,.corner-input,.box-iluminado{
 #texto-topo{width:300px; margin: auto auto; border:solid 1px #bdbdbd; background-color:#f3f3f3; font-size:14px; padding:7px; }
 #estrutura-menu { width:270px; margin-top:0px; float:left; margin-top:20px; }
 #corpo-site { width:270px; margin-top:30px; float:left}
-.menu {float:left; width:100px; border:solid #005279 1px; margin-left:10px; padding:5px; text-align:center; color:#005279; cursor:pointer}
-.menu:hover{float:left; width:80px; border:solid #005279 1px; margin-left:10px; padding:5px; text-align:center; background-color:#005279; color:#ffffff; cursor:pointer}
-.menu-ativo{float:left; width:80px; border:solid #005279 1px; margin-left:10px; padding:5px; text-align:center; background-color:#005279; color:#ffffff; cursor:pointer}
+.menu {float:left; width:65px; border:solid #005279 1px; margin-left:10px; padding:5px; text-align:center; color:#005279; cursor:pointer}
+.menu:hover{float:left; width:65px; border:solid #005279 1px; margin-left:10px; padding:5px; text-align:center; background-color:#005279; color:#ffffff; cursor:pointer}
+.menu-ativo{float:left; width:65px; border:solid #005279 1px; margin-left:10px; padding:5px; text-align:center; background-color:#005279; color:#ffffff; cursor:pointer}
 .campo-form {width:250px;}
 .textarea-form{width:250px; height:150px;}
 .select-form{width:250px;}
-.botao-form{width:130px; background-color:#005279; color:#ffffff; cursor:pointer; border: 1px solid #005279; padding-top:5px;font-size: 13px; font-family:"MyriadProSemibold", Arial, Tahoma, Helvetica, sans-serif; font-weight:bold}
+.botao-form{width:100px; background-color:#005279; color:#ffffff; cursor:pointer; border: 1px solid #005279; padding-top:5px;font-size: 13px; font-family:"MyriadProSemibold", Arial, Tahoma, Helvetica, sans-serif; font-weight:bold}
 .total-tarefa{width:20px; float:left}
-.titulo-tarefa{width:150px; float:left}
+.titulo-tarefa{width:130px; float:left}
 .prioridade-tarefa{width:60px; float:left}
 .editar-tarefa{width:20px; float:left; text-align:center; cursor:pointer}
 .excluir-tarefa{width:20px; float:left; margin-left:10px; text-align:center; cursor:pointer}
@@ -120,13 +120,13 @@ input,textarea,.corner-input,.box-iluminado{
 #texto-topo{width:400px; margin: auto auto; border:solid 1px #bdbdbd; background-color:#f3f3f3; font-size:14px; padding:7px; }
 #estrutura-menu { width:400px; margin-top:0px; float:left; margin-top:20px; }
 #corpo-site { width:400px; margin-top:30px; float:left}
-.menu {float:left; width:100px; border:solid #005279 1px; margin-left:10px; padding:5px; text-align:center; color:#005279; cursor:pointer}
-.menu:hover{float:left; width:100px; border:solid #005279 1px; margin-left:10px; padding:5px; text-align:center; background-color:#005279; color:#ffffff; cursor:pointer}
-.menu-ativo{float:left; width:100px; border:solid #005279 1px; margin-left:10px; padding:5px; text-align:center; background-color:#005279; color:#ffffff; cursor:pointer}
+.menu {float:left; width:80px; border:solid #005279 1px; margin-left:10px; padding:5px; text-align:center; color:#005279; cursor:pointer}
+.menu:hover{float:left; width:80px; border:solid #005279 1px; margin-left:10px; padding:5px; text-align:center; background-color:#005279; color:#ffffff; cursor:pointer}
+.menu-ativo{float:left; width:80px; border:solid #005279 1px; margin-left:10px; padding:5px; text-align:center; background-color:#005279; color:#ffffff; cursor:pointer}
 .campo-form {width:300px;}
 .textarea-form{width:300px; height:200px;}
 .select-form{width:300px;}
-.botao-form{width:150px; background-color:#005279; color:#ffffff; cursor:pointer; border: 1px solid #005279; padding-top:5px;font-size: 13px; font-family:"MyriadProSemibold", Arial, Tahoma, Helvetica, sans-serif; font-weight:bold}
+.botao-form{width:100px; background-color:#005279; color:#ffffff; cursor:pointer; border: 1px solid #005279; padding-top:5px;font-size: 13px; font-family:"MyriadProSemibold", Arial, Tahoma, Helvetica, sans-serif; font-weight:bold}
 .total-tarefa{width:30px; float:left}
 .titulo-tarefa{width:200px; float:left}
 .prioridade-tarefa{width:70px; float:left}
