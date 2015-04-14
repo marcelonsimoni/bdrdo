@@ -18,11 +18,8 @@
 		case 3:
 		    include('../telas/editar.php');
 			break;
-		case 4:
-		    include('telas/excluir.php');
-			break;
 		default:
-		    include('telas/cadstro.php');
+		    include('telas/cadastro.php');
 			break;	
 	}
 
