@@ -1,10 +1,11 @@
 <?php
-    include('../classes/classConsultas.php');
-	$CONSULTA = new classConsultas;
-	$INFO = $CONSULTA->InfoTarefa($C);
+include('../classes/classConsultas.php');
+$CONSULTA = new classConsultas;
+$INFO = $CONSULTA->InfoTarefa($C);
 	
-	if($taf = $INFO->fetch_object())
-	{
+if($taf = $INFO->fetch_object())
+{
+		
 ?>
 <form id="edita-cadastro" name="edita-cadastro">
 <div> Criado em: <u><em><?php echo $taf->criado_em; ?></em></u></div>
@@ -18,10 +19,10 @@
 <select name="prioridade" id="prioridade" class="campo_input corner-input box-iluminado select-form">
 <?php
     $LISTA = $CONSULTA->ListaPrioridade($taf->prioridade);
-	while($sql = $LISTA->fetch_object())
-	{
-		echo '<option value="'.$sql->cod.'" >'.utf8_encode($sql->tipo).'</option>';
-	}
+    while($sql = $LISTA->fetch_object())
+    {
+        echo '<option value="'.$sql->cod.'" >'.utf8_encode($sql->tipo).'</option>';
+    }
 ?>    
 </select></div>
 <div style="margin-top:7px;">Descrição</div>
@@ -33,5 +34,5 @@
 <input type="hidden" name="ct" id="ct" value="<?php echo $taf->cod; ?>" />
 </form>
 <?php
-	}
+}
 ?>

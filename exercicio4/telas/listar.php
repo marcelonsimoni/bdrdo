@@ -4,8 +4,7 @@
     <div class="prioridade-tarefa" align="center" onclick="AlteraPrioridade();" style="cursor:pointer"><div style="float:left"><strong>PRIORIDADE</strong></div><div style="float:left; margin-left:1px; "><img src="images/up.png" id="img-ordem-tarefas" width="16"/></div></div>
 
 </div>
-<div id="load-tarefas">
-</div>
+<div id="load-tarefas"></div>
 <script language="javascript">
     var PRIORI = 1;
     $("#load-tarefas").load("telas/tarefas.php"); 

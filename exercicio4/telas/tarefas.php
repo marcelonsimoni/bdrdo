@@ -1,11 +1,11 @@
 <?php
     $O = (isset($_POST['O']))?(int)$_POST['O']:'1';
     include('../classes/classConsultas.php');
-	$CONSULTA = new classConsultas;
+    $CONSULTA = new classConsultas;
 	
-	$LISTAR = $CONSULTA->ListarTarefas(NULL,$O);
-	$TOT = 1;
-	while($sql = $LISTAR->fetch_object()):
+    $LISTAR = $CONSULTA->ListarTarefas(NULL,$O);
+    $TOT = 1;
+    while($sql = $LISTAR->fetch_object()):
 ?>
 <div class="linha-tarefa">
 	<div class="total-tarefa" align="center"><?php echo $TOT++; ?></div>

@@ -1,6 +1,6 @@
 <?php
     include('../classes/classConsultas.php');
-	$CONSULTA = new classConsultas;
+    $CONSULTA = new classConsultas;
 ?>
 <form id="frm-novo-cadastro" name="frm-novo-cadastro">
 <div>Nome</div>
@@ -10,10 +10,10 @@
 <select name="prioridade" id="prioridade" class="campo_input corner-input box-iluminado select-form">
 <?php
     $LISTA = $CONSULTA->ListaPrioridade(NULL);
-	while($sql = $LISTA->fetch_object())
-	{
-		echo '<option value="'.$sql->cod.'" >'.utf8_encode($sql->tipo).'</option>';
-	}
+    while($sql = $LISTA->fetch_object())
+    {
+        echo '<option value="'.$sql->cod.'" >'.utf8_encode($sql->tipo).'</option>';
+    }
 ?>    
 </select></div>
 <div style="margin-top:7px;">Descrição</div>
